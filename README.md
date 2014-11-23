@@ -1,3 +1,5 @@
+#Location of rabbitmq.config and rabbitmq-env.conf
+/etc/rabbitmq/
 
 #Useful commands:
     sudo rabbitmqctl list_queues
@@ -8,3 +10,10 @@
     sudo rabbitmqctl stop_app
     sudo rabbitmqctl reset
     sudo rabbitmqctl start_app
+    
+#Plugins
+    rabbitmq-plugins enable plugin-name
+    rabbitmq-plugins disable plugin-name
+    rabbitmq-plugins list
+    
+    
